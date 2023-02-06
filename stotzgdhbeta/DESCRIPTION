@@ -1,0 +1,17 @@
+Package: stotzgdhbeta
+Type: Package
+Title: Pulls weather data and calculates GDH
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Weather is retrieved from HRRR an amazon service. It pulls data for certain 
+    chunks where stotz customers are. It converts the temp from Kelvin to Farenheit. Saves 
+    data. Then takes data and creates another table which gets the GDH for each crop stotz's
+    wants and saves it by the day for every latitude and longitude and saves this file. The
+    package also updates both of these files.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+Imports:
